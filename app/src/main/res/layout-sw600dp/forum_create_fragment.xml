@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!-- <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:minHeight="@dimen/abc_action_bar_default_height_material">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:gravity="center_vertical" >
+
+
+                <TextView
+                    android:id="@+id/actionbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center|right"
+                android:layout_weight=".5">
+
+
+                <ImageView
+
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/refresh"
+                    android:background="@drawable/done"
+                    android:layout_marginRight="15dp"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="17dp"
+                    android:visibility="visible"
+                    />
+
+
+                />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/accent"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        >
+
+        <EditText android:id="@+id/write_forum_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:hint="@string/write_comment"
+            android:textSize="20dp"
+            android:paddingLeft="8dp"
+            android:padding="12dp"
+            android:gravity="top"
+            android:textColor="@color/primary"/>
+
+    </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/saveForum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/primary"
+            android:layout_gravity="center_horizontal"
+            android:padding="7dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

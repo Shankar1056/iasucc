@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/about_ucc"
+
+   >
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_ucc"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_ucc_text"
+        android:layout_margin="10dp"
+        android:textColor="@color/primary"
+        android:textSize="16dp"
+        />
+</LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/contact_us"
+
+         >
+
+           <fragment
+
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"/>
+
+            <LinearLayout
+
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:text="@string/call"
+                            android:textSize="@dimen/contactform_text_size_7_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"/>
+
+
+
+                        <LinearLayout
+
+                            android:layout_weight=".4"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/call"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="+91 96866 64985"
+                                android:textSize="@dimen/contactform_text_size_7_tab"
+                                android:gravity="center_vertical"
+
+                                />
+                            <TextView
+                                android:id="@+id/call2"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="08023397437"
+                                android:textSize="@dimen/contactform_text_size_7_tab"
+                                android:gravity="center_vertical"
+
+                                />
+                            <TextView
+                                android:id="@+id/call3"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:text="08023396409"
+                                android:textSize="@dimen/contactform_text_size_7_tab"
+                                android:gravity="center_vertical"
+
+                                />
+
+                        </LinearLayout>
+
+
+
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp">
+                        <TextView
+
+
+                            android:text="@string/mail_us"
+                            android:textSize="@dimen/contactform_text_size_7_tab"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:textColor="@color/black"/>
+                        <TextView
+
+                            android:text="universalhelpdesk@yahoo.in"
+                            android:textSize="@dimen/contactform_text_size_7_tab"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".4"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".7"
+                            android:gravity="top">
+                            <TextView
+                                android:id="@+id/visit"
+                                android:text="@string/visit"
+                                android:textSize="@dimen/contactform_text_size_7_tab"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/black"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight=".4">
+                            <TextView
+                                android:id="@+id/address"
+                                android:text="@string/address"
+                                android:textSize="@dimen/contactform_text_size_7_tab"
+                                android:gravity="center_vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight=".3"/>
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+    </RelativeLayout>
+</LinearLayout>

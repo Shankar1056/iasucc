@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">IAS UCC</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="nav_item_attachment">आसक्ति</string>
+    <string name="nav_item_images">इमेजिस</string>
+    <string name="nav_item_location">मेरा स्थान</string>
+    <string name="nav_sub_menu">उप मेनू</string>
+    <string name="nav_sub_menu_item01">उप मेनू मद 1</string>
+    <string name="nav_sub_menu_item02">उप मेनू आइटम 2</string>
+
+    <!-- TextView Only-->
+
+    <string name="text_name">नाम</string>
+    <string name="text_phone">फ़ोन</string>
+    <string name="text_email">ईमेल</string>
+    <string name="text_password">पासवर्ड</string>
+    <string name="text_confirmpassword">पासवर्ड की पुष्टि कीजिये </string>
+    <string name="text_language">भाषा</string>
+    <string name="daily_updates"> दैनिक अद्यतन </string>
+    <string name="others">मूल्य परिवर्धन</string>
+    <string name="daily_questions">डेली सवाल</string>
+    <string name="news">समाचार</string>
+    <string name="forum">छात्र फोरम</string>
+    <string name="test_series">टेस्ट सीरीज</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="guidlines">मार्गदर्शन</string>
+    <string name="student_forum">छात्र फोरम</string>
+    <string name="previous">पिछला</string>
+    <string name="next">अगला</string>
+    <string name="about_ucc_text">हम ज्ञान भागफल को बढ़ावा देने के क्षेत्र में उत्कृष्टता की एक संस्था बनने का लक्ष्य और भविष्य बौद्धिक नेताओं का उत्पादन करने के लिए प्रयास करते हैं। हमारे आदर्श वाक्य के छात्रों के लिए सबसे अच्छा शिक्षण प्रदान करना है। हम छात्रों के प्रभावशाली सफलता का एक विशाल सूची है। हम उच्च शिक्षा और ज्ञान में अपने बच्चों के लिए एक बेहतर भविष्य के लिए वादा है। हम अपने जीवन को बेहतर और उज्जवल बनाने । अतिरिक्त जानकारी के लिए हमसे संपर्क करें।                                          </string>
+    <string name="about_ucc">Ucc बारे में</string>
+    <string name="contact_ucc">हमसे संपर्क करें</string>
+    <string name="questions">प्रशन</string>
+    <string name="science_and_tech">विज्ञान और तकनीक</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="results">परिणाम</string>
+    <string name="liked">पसंद आया</string>
+    <string name="like">पसंद</string>
+    <string name="registrer">रजिस्टर</string>
+    <string name="comment">टिप्पणी</string>
+    <string name="create_forum">Forum बना</string>
+    <string name="reviewsno">समीक्षा</string>
+    <string name="my_test_series">मेरे टेस्ट सीरीज</string>
+    <string name="online_test_series">ऑनलाइन टेस्ट सीरीज</string>
+    <string name="download_sample">डाउनलोड नमूना</string>
+    <string name="buy_now">अभी खरीदें</string>
+    <string name="info">जानकारी</string>
+    <string name="series_content">श्रृंखला सामग्री</string>
+    <string name="reviews_tab">समीक्षा</string>
+    <string name="new_questions">नए सवाल</string>
+    <string name="no_ques_avail">कोई सवाल नहीं उपलब्ध</string>
+    <string name="submit">जमा करें</string>
+    <string name="ok">ठीक</string>
+    <string name="sub_categories">उप श्रेणियों</string>
+    <string name="home_">घर</string>
+    <string name="call">फ़ोन :</string>
+    <string name="mail_us">ईमेल आईडी :</string>
+    <string name="visit">पता :</string>
+    <string name="user_name">दया शंकर</string>
+    <string name="user_date">4 घंटे पहले</string>
+    <string name="user_like">3 Like</string>
+    <string name="user_reply">6 उत्तर</string>
+    <string name="likes">पसंद</string>
+    <string name="comments">टिप्पणियाँ</string>
+    <string name="clickagaintoback">बाहर निकलने के लिए फिर से वापस क्लिक करें</string>
+    <string name="bought_testpaper">आप टेस्ट पेपर खरीदा</string>
+    <string name="show_bookname">आईबीपीएस क्लर्क प्रारंभिक अभ्यास पत्रों 2015</string>
+    <string name="by_ucc">Ucc द्वारा</string>
+    <string name="reviews">समीक्षा</string>
+    <string name="write_comment_here">अपनी टिप्पणी यहाँ लिखें</string>
+    <string name="review_added">समीक्षा जोड़ा</string>
+    <string name="already_reviewd">आप पहले से ही की समीक्षा की है</string>
+    <string name="SciQuiz3">SciQuiz3</string>
+    <string name="pre">पिछला</string>
+    <string name="nxt">अगला</string>
+    <string name="explanation">व्याख्या :</string>
+    <string name="total_candidates">कुल उम्मीदवारों</string>
+    <string name="best_score">सर्वश्रेष्ठ स्कोर</string>
+    <string name="your_rank">आपका रैंक</string>
+    <string name="try_again">पुनः प्रयास करें</string>
+    <string name="all">सब</string>
+    <string name="favourites">पसंदीदा</string>
+    <string name="report_abused">रिपोर्ट दुरुपयोग</string>
+    <string name="follow_the_question">प्रश्न का पालन करें</string>
+
+    <string name="user_forum_topic">सकल घरेलू उत्पाद के बारे में आधार वर्ष क्या है ।
+क्यों हम इसे बदलने की जरूरत है और ...</string>
+    <string name="descriptin">विवरण</string>
+    <string name="how_it_works">यह काम किस प्रकार करता है?</string>
+    <string name="forget_password">पासवर्ड भूल गए ?</string>
+    <string name="new_in_ucc">यूसीसी में नई</string>
+    <string name="button_login">लॉगिन</string>
+    <string name="location">स्थान</string>
+    <string name="news_text">भारत - छाप भारत इस परियोजना की शुरूआत</string>
+    <string name="news_desc">प्रभावित</string>
+    <string name="free">मुक्त</string>
+    <string name="no_release">कोई नई रिलीज</string>
+<string name="haveaccount_signin">क्या आपके पास पहले से एक खाता मौजूद है ?
+</string>
+    <string name="news_description">समाचार विवरण</string>
+    <string name="notification_description">अधिसूचना विवरण</string>
+    <string name="guidlines_description">मार्गदर्शन विवरण</string>
+
+    <string name="search_notification">शीर्षक के आधार पर खोजें अधिसूचना</string>
+    <string name="search_guidance">शीर्षक के आधार पर खोजें मार्गदर्शन</string>
+    <string name="search_news">शीर्षक द्वारा खोज समाचार</string>
+
+    <!-- Only EditText Hint-->
+
+    <string name="edittext_name">अपना नाम दर्ज करें</string>
+    <string name="edittext_phone">अपना दूरभाष क्रमांक दर्ज करें</string>
+    <string name="edittext_email">अपना ईमेल आईडी दर्ज करें</string>
+    <string name="edittext_password">अपना पासवर्ड डालें</string>
+    <string name="edittext_confirmpassword">अपने पासवर्ड की पुष्टि करें</string>
+    <string name="write_comment">यहाँ अपने Forum बना</string>
+    <string name="address">
+नं 2922/20 , ज्या रोड, नियर Attiguppe बस स्टॉप , R.P.C. लेआउट , अगला सिंडिकेट बैंक, विजयनगर , हम्पी नगर, आरपीसी लेआउट, Attiguppe , बेंगलुरू , कर्नाटक 560040</string>
+    <string name="edittext_post">टिप्पणी लिखें</string>
+    <string name="edittext_your_comment">अपनी टिप्पणी दर्ज करें</string>
+
+    <!--  Button Only-->
+
+    <string name="button_register">खाता बनाएं</string>
+    <string name="send">भेजना</string>
+    <string name="button_prev">पिछला</string>
+    <string name="button_next">अगला</string>
+    <string name="button_signin">साइन इन करें</string>
+
+    <!--Array-->
+
+    <string-array name="series_item_description">
+        <item>@string/info</item>
+        <item>@string/series_content</item>
+        <item>@string/reviews_tab</item>
+    </string-array>
+
+    <!--Menu-->
+
+    <string name="menu_home">घर</string>
+    <string name="menu_about_ucc">यूसीसी के बारे में</string>
+    <string name="menu_test_series">मेरे टेस्ट सीरीज</string>
+    <string name="menu_contact_us">हमसे संपर्क करें</string>
+    <string name="menu_logout">लोग आउट</string>
+    <string name="menu_share">शेयर</string>
+    <string name="menu_rating">इस ऐप्लिकेशन को रेट करे"</string>
+    <string name="menu_communicate">संवाद</string>
+
+    <!--Toast Message-->
+
+    <string name="toast_check_connection">कृपया अपने इंटरनेट कनेक्शन की जाँच करें</string>
+
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

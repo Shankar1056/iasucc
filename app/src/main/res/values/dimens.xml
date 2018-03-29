@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">14dp</dimen>
+    <dimen name="activity_vertical_margin">14dp</dimen>
+
+<dimen name="nav_drawer_width">260dp</dimen>
+<dimen name="margin_19">19dp</dimen>
+<dimen name="fab_margin">30dp</dimen>
+    <dimen name="fab_margin_7_tab">60dp</dimen>
+    <dimen name="fab_margin_tab">15dp</dimen>
+<dimen name="contactform_text_size">15dp</dimen>
+    <dimen name="contactform_text_size_7_tab">25dp</dimen>
+
+  <dimen name="contactform_text_size_tab">25dp</dimen>
+    <dimen name="news_notifi_ques_title">15dp</dimen>
+    <dimen name="news_notifi_ques_text">14dp</dimen>
+    <dimen name="news_notifi_ques_date">11dp</dimen>
+    <dimen name="news_notifi_ques_desc_title">17dp</dimen>
+    <dimen name="news_notifi_ques_desc_text">15dp</dimen>
+    <dimen name="news_notifi_ques_desc_date">12dp</dimen>
+    <dimen name="ques_month_year">12dp</dimen>
+    <dimen name="ques_date">16dp</dimen>
+</resources>

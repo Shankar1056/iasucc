@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">IAS UCC</string>
+    <string name="action_settings">அமைப்புகள்</string>
+    <string name="nav_item_attachment">இணைப்பு</string>
+    <string name="nav_item_images">படங்கள்</string>
+    <string name="nav_item_location">எனது இருப்பிடம்</string>
+    <string name="nav_sub_menu">சப் மெனு</string>
+    <string name="nav_sub_menu_item01">சப் மெனு பொருள் 1</string>
+        <string name="nav_sub_menu_item02">சப் மெனு பொருள் 2</string>
+
+    <!-- TextView Only-->
+
+    <string name="text_name">பெயர்</string>
+    <string name="text_phone">தொலைபேசி</string>
+    <string name="text_email">மின்னஞ்சல்</string>
+    <string name="text_password">கடவுச்சொல்</string>
+    <string name="text_confirmpassword">கடவுச்சொல்லை உறுதிப்படுத்துக</string>
+    <string name="text_language">மொழி</string>
+    <string name="daily_updates">தினசரி மேம்படுத்தல்கள்</string>
+    <string name="others">மதிப்பு கூட்டல்கள்</string>
+    <string name="daily_questions">தினசரி வினாக்கள்</string>
+    <string name="news">செய்திகள்</string>
+    <string name="forum">மாணவர் கருத்துக்களம்</string>
+    <string name="test_series">தேர்வு தொடர்கள்</string>
+    <string name="notifications">அறிவிப்புகள்</string>
+    <string name="guidlines">வழிகாட்டல்</string>
+    <string name="student_forum">மாணவர்கள் கருத்துக்களம்</string>
+    <string name="previous">முந்தைய</string>
+    <string name="next">அடுத்தது</string>
+    <string name="about_ucc_text">" " நாம் அறிவு ஈவு ஊக்குவிப்பதில் சிறந்த ஒரு நிறுவனம் , எதிர்காலத்தைக் அறிவார்ந்த தலைவர்களும் தயாரிக்க முயற்சி நோக்கம் . எங்கள் கொள்கையே மாணவர்கள் சிறந்த கற்பித்தல் வழங்க உள்ளது. அத்துடன், மாணவர்கள் ஈர்க்கக்கூடிய வெற்றி ஒரு பெரிய பட்டியல் உள்ளது . நாம் ஒரு நல்ல சத்தியம் உயர் கல்வி மற்றும் அறிவு உங்கள் பிள்ளைகளின் எதிர்காலம் . நாம் உங்கள் வாழ்க்கை சிறப்பாக மற்றும் பிரகாசமான செய்ய . மேலும் விவரங்களுக்கு எங்களை தொடர்பு கொள்ளவும்.</string>
+    <string name="about_ucc">UCC பற்றிய தகவல்கள்</string>
+    <string name="contact_ucc">தொடர்புக்கு</string>
+    <string name="questions">கேள்விகள்</string>
+    <string name="science_and_tech">அறிவியல் மற்றும் தொழில்நுட்பம்</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="results">முடிவுகள்</string>
+        <string name="liked">விரும்பியது</string>
+    <string name="like">விருப்பம்</string>
+    <string name="registrer">பதிவு</string>
+    <string name="comment">கருத்து</string>
+    <string name="create_forum">கருத்துக்களம் உருவாக்கு</string>
+    <string name="reviewsno">விமர்சனங்கள்</string>
+    <string name="my_test_series">எனது தேர்வு தொடர்கள்</string>
+    <string name="online_test_series">ஆன்லைன் தேர்வுத்தொடர்கள்</string>
+    <string name="download_sample">பதிவிறக்க மாதிரி</string>
+    <string name="buy_now">இப்போது வாங்க</string>
+    <string name="info">தகவல்</string>
+    <string name="series_content">தொடர் உள்ளடக்கத்தை</string>
+    <string name="reviews_tab">விமர்சனங்களை</string>
+    <string name="new_questions">புதிய வினாக்கள்</string>
+    <string name="no_ques_avail">எந்த வினாக்களும் இல்லை</string>
+    <string name="submit">சமர்ப்பி</string>
+    <string name="ok">சரி</string>
+    <string name="sub_categories">சப் வகைகள்</string>
+    <string name="home_">முகப்பு</string>
+    <string name="call"> தொலைபேசி :</string>
+    <string name="mail_us"> மின்னஞ்சல் :</string>
+    <string name="visit"> முகவரி :</string>
+    <string name="user_name">தயா சங்கர்</string>
+    <string name="user_date">4 மணி நேரம் முன்பு</string>
+    <string name="user_like">3 போல்</string>
+    <string name="user_reply">6 பதில்</string>
+    <string name="likes">விருப்பு</string>
+    <string name="comments">கருத்துரைகள்</string>
+    <string name="clickagaintoback"> மென்பொருளில் இருந்து வெளியேற மீண்டும் அழுத்தம் </string>
+    <string name="bought_testpaper">நீங்கள் டெஸ்ட் பேப்பர் வாங்கி</string>
+    <string name="show_bookname">IBPS கிளார்க் ஒளிமயமான பயிற்சி பேப்பர்ஸ் 2015</string>
+    <string name="by_ucc">பி உயர்</string>
+    <string name="reviews">விமர்சனங்கள்</string>
+    <string name="write_comment_here">உனது கருத்தை இங்கு உருவாக்கு</string>
+        <string name="review_added">ஆய்வு சேர்க்கப்படும்</string>
+    <string name="already_reviewd">நீங்கள் ஏற்கனவே மதிப்பாய்வு செய்து,c</string>
+    <string name="SciQuiz3">SciQuiz3</string>
+    <string name="pre">முன்</string>
+    <string name="nxt">அடுத்த</string>
+    <string name="explanation">விளக்கம் :</string>
+    <string name="total_candidates">மொத்த தேர்வாளர்கள்</string>
+        <string name="best_score">சிறந்த மதிப்பெண்</string>
+    <string name="your_rank">உங்கள் ரேங்க்</string>
+    <string name="try_again">மீண்டும் முயற்சி செய்க</string>
+    <string name="all">அனைத்தும்</string>
+    <string name="favourites">விருப்பங்கள்</string>
+    <string name="report_abused">அறிக்கை தவறாக</string>
+    <string name="follow_the_question">கேள்வி பின்பற்ற</string>
+    <string name="haveaccount_signin">ஏற்கனவே ஒரு கணக்கு உள்ளதா ?</string>
+    <string name="news_description">செய்தி விளக்கம்</string>
+    <string name="notification_description">அறிவிப்பு விளக்கம்</string>
+    <string name="guidlines_description">வழிகாட்டல் விளக்கம்</string>
+    <string name="search_notification"> தலைப்பின் அடிப்படையில் அறிவிப்புகளை தேடல்  </string>
+    <string name="search_guidance"> தலைப்பு மூலம் தேடல் வழிகாட்டல்  </string>
+    <string name="search_news"> தலைப்பின் அடிப்பையில் செய்திகளை தேடல் </string>
+
+
+    <!-- Only EditText Hint-->
+
+        <string name="edittext_name">உங்கள் பெயரை உள்ளிடவும்</string>
+    <string name="edittext_phone">உங்கள் தொலைபேசி எண்ணை சேர்க்கவும்</string>
+        <string name="edittext_email">உங்கள் மின்னஞ்சல் ஐடி உள்ளிடவும்</string>
+    <string name="edittext_password">உங்கள் கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="edittext_confirmpassword">உங்கள் கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+    <string name="write_comment">இங்கே உங்கள் மன்றத்தை உருவாக்க</string>
+    <string name="address">எண் 2922/20 , நாண் ரோடு, அத்திகுப்பே  பஸ் ஸ்டாப் , ஆர்.பி.சி  லேஅவுட் , சிண்டிகேட் வங்கி , விஜயநகர , ஹம்பி நகர் , ஆர்பிசி லேஅவுட் , அத்திகுப்பே  , பெங்களூரு , கர்நாடகா 560040 அடுத்த</string>
+    <string name="edittext_post">ஒரு கருத்து எழுத</string>
+    <string name="edittext_your_comment">உங்கள் கருத்தை உள்ளிடுக</string>
+
+    <!--  Button Only-->
+
+    <string name="button_register">உங்கள் கணக்கை துவங்குங்கள்</string>
+    <string name="send">அனுப்பு</string>
+    <string name="button_prev">முன்</string>
+    <string name="button_next">அடுத்த</string>
+    <string name="button_signin">உள்நுழையவும்</string>
+
+    <!--Array-->
+
+    <string-array name="series_item_description">
+        <item>@string/info</item>
+        <item>@string/series_content</item>
+        <item>@string/reviews_tab</item>
+    </string-array>
+
+    <!--Menu-->
+     <string name="user_forum_topic">GDP కి సంబంధించిన ఆధార సంవత్సరం ఏమిటి.
+ఎందుకు మేము దానిని మార్చడం అవసరం మరియు ...</string>
+        <string name="descriptin">விளக்கம்</string>
+    <string name="how_it_works">எப்படி இது செயல்படுகிறது? </string>
+    <string name="forget_password">கடவுச்சொல்லை மறந்து விட்டீர்களா?</string>
+    <string name="new_in_ucc">யூனியன் கார்பைடு உள்ள நியூ</string>
+    <string name="button_login">உள் நுழை</string>
+    <string name="location">இடம்</string>
+    <string name="news_text">இந்தியா அடித்தளங்களை - இந்தியா திட்டம் அறிமுகம்</string>
+    <string name="news_desc">பாதிக்கிறது ஆராய்ச்சி</string>
+    <string name="free">இலவச</string>
+    <string name="no_release">புதிய வெளியீடு</string>
+
+    <string name="menu_home">முகப்பு</string>
+    <string name="menu_about_ucc">UCC பற்றிய தகவல்கள்</string>
+    <string name="menu_test_series">என் டெஸ்ட் தொடர்</string>
+    <string name="menu_contact_us">தொடர்புக்கு</string>
+        <string name="menu_logout">வெளியேறு</string>
+    <string name="menu_share">பகிர்</string>
+    <string name="menu_rating">மென்பொருளை மதிப்பிடு</string>
+    <string name="menu_communicate">தொடர்பு</string>
+
+    <!--Toast Message-->
+
+    <string name="toast_check_connection">உங்கள் இணைய இணைப்பை சரிபார்க்கவும்</string>
+
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544 / 6300978111</string>
+</resources>

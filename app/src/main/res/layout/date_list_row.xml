@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+       android:background="@color/white"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:layout_weight="7"
+
+        android:paddingLeft="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Month"
+        android:textSize="@dimen/ques_month_year"
+
+
+        android:text="jan"
+        android:textStyle="normal"
+
+
+        android:gravity="center_horizontal|bottom"
+       >
+
+    </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Date"
+            android:textSize="@dimen/news_notifi_ques_desc_date"
+            android:text="29"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal|top"
+
+           >
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Year"
+            android:textSize="@dimen/ques_month_year"
+
+            android:text="2013"
+            android:textStyle="normal"
+            android:gravity="center_horizontal|bottom"
+          >
+
+        </TextView>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3"
+           >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+       >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/QuestionData"
+        android:textSize="@dimen/news_notifi_ques_text"
+        android:gravity="center"
+
+       />
+        <!--<ProgressBar
+            android:id="@+id/pbLoading"
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
+           />-->
+        <LinearLayout
+            android:id="@+id/progressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+            <ProgressBar
+                android:id="@+id/pbLoading"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="visible"
+                android:layout_gravity="center"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/primary"
+
+                >
+            </ProgressBar>
+
+        </LinearLayout>
+
+
+</RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/right_arraow"
+                />
+        </LinearLayout>
+    </LinearLayout>
+ </LinearLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucc.application">
+    <!--com.tutorialsbuzz.navigationdrawer-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"  />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="false" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:required="false"/>
+    <permission
+        android:name="com.ucc.application.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"
+        />
+
+
+    <permission
+        android:name="com.ucc.application.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ucc.application.permission.C2D_MESSAGE" />
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:resizeable="true" />
+
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.splash.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.login.Register"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.StudentForumActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.NewsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+        android:name="com.tutorialsbuzz.navigationdrawer.activity.NewsDescription"
+        android:label="@string/app_name"
+            android:screenOrientation="portrait">
+    </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.Notification"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.login.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.CommentOnForum"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.ForumCreate"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.TestSeries"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.payment.paymentSuccess"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.PracticePaper"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.PracticePaperReviews"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.CurrentAffairs"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.Results"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.AboutUcc"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.Questions"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.NotificationDescription"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+
+
+        <receiver
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.google.android.c2dm.intent.UNREGISTER" />
+                <category android:name="com.ucc.application" />
+            </intent-filter>
+        </receiver>
+
+       <!-- <service
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.gcm.GcmIntentService"
+            android:enabled="true" />-->
+
+        <service
+            android:name="com.tutorialsbuzz.navigationdrawer.activity.gcm.GcmIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAFJVo96aE7pyffo5Bb7Yaxk8V45eEXMe4"/>
+
+
+
+    </application>
+
+</manifest>

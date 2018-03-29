@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="vertical">
+           <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+          <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/back_nav_buttons"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:layout_weight=".7"
+        android:gravity="center"
+        android:background="@color/white"
+        android:paddingTop="28dp"
+       >
+
+
+        <TextView
+            android:id="@+id/_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_bookname"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#404041"/>
+
+        <TextView
+            android:id="@+id/byucc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/by_ucc"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#A6A8AB"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="13dp">
+
+            <TextView
+                android:id="@+id/price_ucc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Rs. 140"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#F6921E"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".3"
+        android:padding="26dp"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/descriptin"
+            android:textSize="35dp"
+            android:textColor="#58595B"/>
+            <TextView
+                android:id="@+id/info_description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:textColor="#8E8F92"
+                android:text="Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the indus-
+try's standard dummy text ever since the 1500s, when an
+unknown printer took a galley of type and scrambled it
+to make a type specimen book. It has survived not only
+five centuries, but also the leap into electronic typeset-
+ting, remaining essentially unchanged."
+                android:textSize="28dp"/>
+        </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight=".3"
+                  android:padding="45dp"
+                  android:orientation="vertical"
+                  android:background="@color/white">
+
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="@string/how_it_works"
+                      android:textSize="35dp"
+                      android:textColor="#58595B"/>
+                  <TextView
+                      android:id="@+id/How_it_works"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginTop="23dp"
+                      android:textColor="#8E8F92"
+                      android:text="Lorem Ipsum is simply dummy text of the printing and
+typesetting industry. Lorem Ipsum has been the indus-
+try's standard dummy text ever since the 1500s, when an
+unknown printer took a galley of type and scrambled it
+to make a type specimen book. It has survived not only
+five centuries, but also the leap into electronic typeset-
+ting, remaining essentially unchanged."
+                      android:textSize="28dp"/>
+              </LinearLayout>
+
+          </LinearLayout>
+   </ScrollView>
+    </LinearLayout>
+</LinearLayout>

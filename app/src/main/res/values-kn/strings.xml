@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">IAS UCC</string>
+    <string name="action_settings">ಸೆಟ್ಟಿಂಗ್ಗಳು</string>
+    <string name="nav_item_attachment">ಲಗತ್ತು</string>
+    <string name="nav_item_images">ಚಿತ್ರಗಳು</string>
+    <string name="nav_item_location">ನನ್ನ ಸ್ಥಳ</string>
+    <string name="nav_sub_menu">ಉಪ ಮೆನು</string>
+    <string name="nav_sub_menu_item01">ಉಪ ಮೆನು ಐಟಂ 1</string>
+    <string name="nav_sub_menu_item02">ಉಪ ಮೆನು ಐಟಂ 2</string>
+
+    <!-- TextView Only-->
+
+    <string name="text_name">ಹೆಸರು</string>
+    <string name="text_phone">ದೂರವಾಣಿ</string>
+    <string name="text_email">ಇಮೇಲ್</string>
+    <string name="text_password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="text_confirmpassword">ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+    <string name="text_language"> ಭಾಷೆ </string>
+    <string name="daily_updates">ದೈನಂದಿನ ಘಟನಾವಳಿಗಳು</string>
+    <string name="others">ಮೌಲ್ಯ ಸೇರ್ಪಡೆ</string>
+    <string name="daily_questions">ದಿನಂಪ್ರತಿ ಪ್ರಶ್ನೆಗಳು</string>
+    <string name="news">ಸುದ್ದಿ</string>
+    <string name="forum">ವಿದ್ಯಾರ್ಥಿ ವೇದಿಕೆ</string>
+    <string name="test_series">ಟೆಸ್ಟ್ ಸೀರೀಸ್</string>
+    <string name="notifications">ಸೂಚನೆಗಳು</string>
+    <string name="guidlines">ಮಾರ್ಗದರ್ಶನ</string>
+    <string name="student_forum">ವಿದ್ಯಾರ್ಥಿ ವೇದಿಕೆ</string>
+    <string name="previous">ಹಿಂದಿನ</string>
+    <string name="next">ಮುಂದಿನ</string>
+    <string name="about_ucc_text">"          ನಾವು ಜ್ಞಾನ ಭಾಗಲಬ್ಧ ಪ್ರಚಾರ ಶ್ರೇಷ್ಠತೆಯ ಸಂಸ್ಥೆಯೊಂದು ಮತ್ತು ಭವಿಷ್ಯದ ಬೌದ್ಧಿಕ ನಾಯಕರನ್ನು ರೂಪಿಸುವುದರ ಶ್ರಮಿಸಬೇಕು ಗುರಿ. ನಮ್ಮ ಗುರಿ ವಿದ್ಯಾರ್ಥಿಗಳು ಅತ್ಯುತ್ತಮ ಬೋಧನೆ ಒದಗಿಸುವುದು. ನಾವು ವಿದ್ಯಾರ್ಥಿಗಳು ಪ್ರಭಾವಶಾಲಿ ಯಶಸ್ಸಿನ ಒಂದು ಬೃಹತ್ ಪಟ್ಟಿಯನ್ನು ಹೊಂದಿರುತ್ತವೆ. ನಾವು ಉತ್ತಮ ಭರವಸೆ ಉನ್ನತ ಶಿಕ್ಷಣ ಮತ್ತು ಜ್ಞಾನ ನಿಮ್ಮ ಮಕ್ಕಳಿಗೆ ಭವಿಷ್ಯದ. ನಿಮ್ಮ ಜೀವನ ಉತ್ತಮ ಮತ್ತು ಪ್ರಕಾಶಮಾನವಾಗಿ ಮಾಡಲು. ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="about_ucc">ಯುಸಿಸಿ ಬಗ್ಗೆ</string>
+    <string name="contact_ucc">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="questions">ಪ್ರಶ್ನೆಗಳು</string>
+    <string name="science_and_tech">ವಿಜ್ಞಾನ ಮತ್ತು ತಂತ್ರಜ್ಞಾನ</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‍ಗಳು</string>
+    <string name="results"> ಫಲಿತಾಂಶ </string>
+    <string name="liked">ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</string>
+    <string name="like">ಲೈಕ್</string>
+    <string name="registrer">ನೋಂದಣಿ</string>
+    <string name="comment">ಕಮೆಂಟ್ </string>
+    <string name="create_forum">ವೇದಿಕೆ ರಚಿಸಿ</string>
+    <string name="reviewsno">ವಿಮರ್ಶೆಗಳು</string>
+    <string name="my_test_series">ಟೆಸ್ಟ್ ಸರಣಿ</string>
+    <string name="online_test_series">ಆನ್‍ಲೈನ್ ಟೆಸ್ಟ್ ಸೀರೀಸ್</string>
+    <string name="download_sample">ಮಾದರಿ ಡೌನ್ಲೋಡ್</string>
+    <string name="buy_now">ಈಗ ಖರೀದಿಸು</string>
+    <string name="info">ಮಾಹಿತಿಯನ್ನು</string>
+    <string name="series_content">ಸರಣಿ ವಿಷಯ</string>
+    <string name="reviews_tab">ವಿಮರ್ಶೆಗಳು</string>
+    <string name="new_questions">ಹೊಸ ಪ್ರಶ್ನೆಗಳು</string>
+    <string name="no_ques_avail">ಪ್ರಶ್ನೆಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="submit">ಸಲ್ಲಿಸಿ</string>
+    <string name="ok">ಸರಿ</string>
+    <string name="sub_categories">ಉಪ ವರ್ಗಗಳು</string>
+    <string name="home_">ಮುಖಪುಟ</string>
+    <string name="call"> ದೂರವಾಣಿ ಸಂಖ್ಯೆ :</string>
+    <string name="mail_us"> ಇಮೇಲ್ ಐಡಿ :</string>
+    <string name="visit"> ವಿಳಾಸ :</string>
+    <string name="user_name">ದಯಾ ಶಂಕರ್</string>
+    <string name="user_date">4 ಗಂಟೆಗಳ ಹಿಂದೆ</string>
+    <string name="user_like">3 ಲೈಕ್</string>
+    <string name="user_reply">6 ಉತ್ತರಿಸಿ</string>
+    <string name="likes">ಇಷ್ಟಗಳು</string>
+    <string name="comments">ಪ್ರತಿಕ್ರಿಯೆಗಳು</string>
+    <string name="clickagaintoback"> ಈ ಅಪ್ಲಿಕೇಶನ್‍ನಿಂದ ಹೊರಬರಲು ಮತ್ತೆ ಅದುಮಿ  </string>
+    <string name="bought_testpaper">ನೀವು ಪರೀಕ್ಷೆ ಪೇಪರ್ ಖರೀದಿಸಿತು</string>
+    <string name="show_bookname">IBPS ಕ್ಲರ್ಕ್ Prelims ಪ್ರಾಕ್ಟೀಸ್ ಪೇಪರ್ಸ್ 2015</string>
+    <string name="by_ucc">ಯುಸಿಸಿ ಮೂಲಕ</string>
+    <string name="reviews">ವಿಮರ್ಶೆಗಳು</string>
+    <string name="write_comment_here">ಇಲ್ಲಿ ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆ ಬರೆಯಿರಿ</string>
+    <string name="review_added">ವಿಮರ್ಶೆ ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="already_reviewd">ನೀವು ಈಗಾಗಲೇ ಪರಿಶೀಲಿಸಿದ</string>
+    <string name="SciQuiz3">SciQuiz3</string>
+    <string name="pre">ಹಿಂದಿನ</string>
+    <string name="nxt">ಮುಂದಿನ</string>
+    <string name="explanation">ವಿವರಣೆ:</string>
+    <string name="total_candidates">ಒಟ್ಟು ಅಭ್ಯರ್ಥಿಗಳು</string>
+    <string name="best_score">ಅತ್ಯುತ್ತಮ ಅಂಕ</string>
+    <string name="your_rank">ನಿಮ್ಮ ಶ್ರೇಣಿ</string>
+    <string name="try_again">ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="all">ಎಲ್ಲಾ</string>
+    <string name="favourites">ಫೆವರೇಟ್</string>
+    <string name="report_abused">ನಿಂದನೆ ವರದಿ</string>
+    <string name="follow_the_question">ಪ್ರಶ್ನೆ ಅನುಸರಿಸಿ</string>
+
+    <string name="user_forum_topic">GDP ಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಬೇಸ್ ವರ್ಷ ಏನು.
+ನಾವು ಮತ್ತು ಅದನ್ನು ಬದಲಾಯಿಸಲು ಅಗತ್ಯವಿದೆ ...</string>
+    <string name="descriptin">ವಿವರಣೆ</string>
+    <string name="how_it_works">ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?</string>
+    <string name="forget_password">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ ?</string>
+    <string name="new_in_ucc">ಯುಸಿಸಿ ಹೊಸ</string>
+    <string name="button_login">ಲಾಗಿನ್</string>
+    <string name="location">ಸ್ಥಳ</string>
+    <string name="news_text">ಭಾರತ ಮುದ್ರೆ ಭಾರತ ಯೋಜನೆಯ ಪ್ರಾರಂಭಿಸುತ್ತದೆ</string>
+    <string name="news_desc">ಪ್ರಭಾವ reaseach</string>
+    <string name="free">ಉಚಿತ</string>
+    <string name="no_release">ಯಾವುದೇ ಹೊಸ ಬಿಡುಗಡೆ</string>
+    <string name="haveaccount_signin">ಈಗಾಗಲೇ ಖಾತೆ ಹೊಂದಿದ್ದೀರ ?</string>
+    <string name="news_description">ಸುದ್ದಿ ವಿವರಣೆ</string>
+    <string name="notification_description">ಸೂಚನೆಗಳ ವಿವರಣೆ</string>
+    <string name="guidlines_description">ಮಾರ್ಗದರ್ಶನದ ವಿವರಣೆ</string>
+    <string name="search_notification">ಶೀರ್ಷಿಕೆ ಮೂಲಕ ನೋಟಿಫಿಕೇಶನ್ ಹುಡುಕಿ</string>
+    <string name="search_guidance"> ಶೀರ್ಷಿಕೆರಿಂದ ಹುಡುಕಾಟ ಮಾರ್ಗದರ್ಶನ </string>
+    <string name="search_news">ಶೀರ್ಷಿಕೆ ಮೂಲಕ ಸುದ್ದಿ ಹುಡುಕಿ</string>
+
+
+    <!-- Only EditText Hint-->
+
+    <string name="edittext_name">ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="edittext_phone">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="edittext_email">ನಿಮ್ಮ ಇಮೇಲ್ ಐಡಿ ನಮೂದಿಸಿ</string>
+    <string name="edittext_password">ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="edittext_confirmpassword">ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸಿ</string>
+    <string name="write_comment">ಇಲ್ಲಿ ನಿಮ್ಮ ವೇದಿಕೆ ರಚಿಸಿ</string>
+    <string name="address">ನಂ 2922/20 , ಕಾರ್ಡ್ ರಸ್ತೆ, ಅತ್ತಿಗುಪ್ಪೆ  ಹತ್ತಿರ ಬಸ್ ಸ್ಟಾಪ್, ಆರ್.ಪಿ.ಸಿ. ಲೇಔಟ್, ಸಿಂಡಿಕೇಟ್ ಬ್ಯಾಂಕ್, ವಿಜಯನಗರ, ಹಂಪಿ ನಗರ , ಆರ್.ಪಿ.ಸಿ. ಲೇಔಟ್, ಅತ್ತಿಗುಪ್ಪೆ  , ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ 560040 </string>
+    <string name="edittext_post">ಪ್ರತಿಕ್ರಿಯೆ ಬರೆಯಿರಿ</string>
+    <string name="edittext_your_comment">ಕಮೆಂಟ್ ಬರೆಯಿರಿ </string>
+
+    <!--  Button Only-->
+
+    <string name="button_register">ಖಾತೆ ತೆರೆೆ</string>
+    <string name="send">ಕಳುಹಿಸಿ</string>
+    <string name="button_prev">ಹಿಂದಿನ</string>
+    <string name="button_next">ಮುಂದಿನ</string>
+    <string name="button_signin">ಸೈನ್ ಇನ್</string>
+
+    <!--Array-->
+
+    <string-array name="series_item_description">
+        <item>@string/info</item>
+        <item>@string/series_content</item>
+        <item>@string/reviews_tab</item>
+    </string-array>
+
+    <!--Menu-->
+
+    <string name="menu_home">ಮುಖಪುಟ</string>
+    <string name="menu_about_ucc">ಯುಸಿಸಿ ಬಗ್ಗೆ</string>
+    <string name="menu_test_series">ಟೆಸ್ಟ್ ಸರಣಿ</string>
+    <string name="menu_contact_us">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="menu_logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="menu_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="menu_rating"> ಈ ಆ್ಯಪ್‍ಗೆ ರೇಟ್ ಮಾಡಿ </string>
+    <string name="menu_communicate">ಸಂವಹನ</string>
+
+    <!--Toast Message-->
+
+    <string name="toast_check_connection">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

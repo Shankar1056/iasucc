@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">IAS UCC</string>
+    <string name="action_settings">సెట్టింగులు</string>
+    <string name="nav_item_attachment">Attachment</string>
+    <string name="nav_item_images">జోడింపు</string>
+    <string name="nav_item_location">నా స్థానం</string>
+    <string name="nav_sub_menu">సబ్ మెనూ</string>
+    <string name="nav_sub_menu_item01">సబ్ మెనూ అంశం 1</string>
+    <string name="nav_sub_menu_item02">సబ్ మెనూ అంశం 2</string>
+
+    <!-- TextView Only-->
+
+    <string name="text_name">పేరు</string>
+    <string name="text_phone">ఫోన్ </string>
+    <string name="text_email"> ఇ మెయిల్ </string>
+    <string name="text_password">పాస్వర్డ్</string>
+    <string name="text_confirmpassword">పాస్వర్డ్ని నిర్ధారించండి</string>
+    <string name="text_language">భాష</string>
+    <string name="daily_updates">రోజువారి నవీకరణలు</string>
+    <string name="others">అదనపు విలువలు</string>
+    <string name="daily_questions">రోజువారి ప్రశ్నలు</string>
+    <string name="news">వార్తలు</string>
+    <string name="forum">స్టూడెంట్ ఫోరం</string>
+    <string name="test_series">పరీక్షల వరుస</string>
+    <string name="notifications">సూచనలు</string>
+    <string name="guidlines">మార్గదర్శనం</string>
+    <string name="student_forum">విద్యార్థుల వేదిక</string>
+    <string name="previous">మునుపటి</string>
+    <string name="next">తదుపరి</string>
+    <string name="about_ucc_text">"మేము జ్ఞానం కోశంట్ ప్రచారం లో సమర్థత ఒక సంస్థ మరియు భవిష్యత్తు మేధావి నాయకులను తయారుచేసే పోరాడాలి గురి. మా నినాదం విద్యార్థులకు ఉత్తమ బోధన అందిస్తుంది. విద్యార్ధులకు ఆకట్టుకునే విజయం యొక్క పెద్ద జాబితా. మేము ఒక మంచి వాగ్దానం ఉన్నత విద్య మరియు విజ్ఞానం మీ పిల్లలకు భవిష్యత్తు. మేము మీ జీవితం మంచి మరియు ప్రకాశవంతంగా చేయడానికి. మరిన్ని వివరాల కోసం సంప్రదించండి.</string>
+    <string name="about_ucc"> యుసిసి గురించి </string>
+    <string name="contact_ucc">మమ్ములను కలవండి</string>
+    <string name="questions">ప్రశ్నలు</string>
+    <string name="science_and_tech">శాస్త్రీయ మరియు సాంకేతిక విజ్ఞానాలు</string>
+    <string name="settings">ఏర్పాట్లు </string>
+    <string name="results">ఫలితాలు</string>
+    <string name="liked">పడినవి</string>
+    <string name="like">ఇష్టపడు</string>
+    <string name="registrer">నమోదు</string>
+    <string name="comment">వ్యాఖ్య</string>
+    <string name="create_forum">వేదికను సృష్టించు</string>
+    <string name="reviewsno">సమీక్షలు</string>
+    <string name="my_test_series">నా పరీక్షల వరుస</string>
+    <string name="online_test_series">ఆన్‍లైన్ పరీక్షల వరుస</string>
+    <string name="download_sample">నమూనా డౌన్లోడ్</string>
+    <string name="buy_now">ఇప్పుడే కొనండి</string>
+    <string name="info">సమాచారం</string>
+    <string name="series_content">సిరీస్ కంటెంట్ </string>
+    <string name="reviews_tab">సమీక్షలు</string>
+    <string name="new_questions">కొత్త ప్రశ్నలు</string>
+    <string name="no_ques_avail">ప్రశ్నలు ఏవీ లభించడంలేదు</string>
+    <string name="submit">సమర్పించు</string>
+    <string name="ok">అలాగే</string>
+    <string name="sub_categories">సబ్ వర్గం</string>
+    <string name="home_">గృహం </string>
+    <string name="call">ఫోన్ :</string>
+    <string name="mail_us">ఇమెయిల్ ఐడి :</string>
+    <string name="visit"> చిరునామా  :</string>
+    <string name="user_name">దయా శంకర్</string>
+    <string name="user_date">4 గంటల క్రితం</string>
+    <string name="user_like">3 ఇష్టం</string>
+    <string name="user_reply">6 ప్రత్యుత్తరం</string>
+    <string name="likes">ఇష్టాలు</string>
+    <string name="comments">వ్యాఖ్యలు</string>
+    <string name="clickagaintoback"> బయటపడే అప్లికేషన్‌కుగాను మరోసారి నొక్కండి </string>
+    <string name="bought_testpaper">మీరు టెస్ట్ పేపర్ కొనుగోలు</string>
+    <string name="show_bookname">IBPS క్లర్క్ ప్రిలిమ్స్ ప్రాక్టీస్ పేపర్స్ 2015</string>
+    <string name="by_ucc">యుసిసి ద్వారా</string>
+    <string name="reviews">సమీక్షలు</string>
+    <string name="write_comment_here">మీ వ్యాఖ్యను ఇక్కడ వ్రాయండి</string>
+    <string name="review_added">సమీక్ష కలిపినప్పుడు</string>
+    <string name="already_reviewd">మీరు ఇప్పటికే సమీక్షించిన</string>
+    <string name="SciQuiz3">SciQuiz3</string>
+    <string name="pre">ప్రీ</string>
+        <string name="nxt">Nxt</string>
+    <string name="explanation">వివరణ :</string>
+    <string name="total_candidates">మొత్తం అభ్యర్థులు</string>
+    <string name="best_score">ఉత్తమ ఫలితము</string>
+    <string name="your_rank">నీ శ్రేణి </string>
+    <string name="try_again">మరల ప్రయత్నించు</string>
+    <string name="all">అన్ని</string>
+    <string name="favourites">నచ్చినవి</string>
+    <string name="report_abused">నివేదిక నిందించబడిన</string>
+    <string name="follow_the_question">ప్రశ్న అనుసరించండి</string>
+    <string name="haveaccount_signin">ఖాతా కలిగి ఉన్నారా ?</string>
+    <string name="news_description">న్యూస్ వివరణ</string>
+    <string name="notification_description">సూచనల వివరణ</string>
+    <string name="guidlines_description">మార్గదర్శక వివరణ</string>
+    <string name="search_notification"> సూచనలను శీర్షిక ద్వారా శోధించు </string>
+    <string name="search_guidance"> శీర్షిక ద్వారా గైడెన్స్ శోధన </string>
+    <string name="search_news"> వార్తలను శీర్షిక ద్వారా శోధించు  </string>
+
+
+    <!-- Only EditText Hint-->
+
+    <string name="edittext_name">మీ పేరు రాయుము, మీ పేరు రాయండి</string>
+        <string name="edittext_phone">మీ ఫోన్ నెంబర్ ను ఎంటర్ చేయండి</string>
+    <string name="edittext_email">మీ ఇమెయిల్ ఐడి ఎంటర్</string>
+    <string name="edittext_password">మీ పాస్వర్డ్ ని నమోదుచేయండి</string>
+    <string name="edittext_confirmpassword">మీ గుత్త పదమును ధృవీకరించండి</string>
+    <string name="write_comment">మీ వేదికను ఇక్కడ సృష్టించండి</string>
+    <string name="address">నం 2922/20 , జ్యా రోడ్ , నియర్ ఆత్తిగుప్పె బస్ స్టాప్, ఆర్.పి.సి లేఅవుట్ , సిండికేట్ బ్యాంక్, విజయనగర , హంపి నగర్ , RPC లేఅవుట్, ఆత్తిగుప్పె , బెంగళూరు, కర్నాటక 560040 పక్కన</string>
+    <string name="edittext_post">వ్యాఖ్య రాయండి</string>
+    <string name="edittext_your_comment">మీ వ్యాఖ్యను నమోదు</string>
+
+    <!--  Button Only-->
+
+    <string name="button_register">ఖాతా సృష్టించు</string>
+    <string name="send">పంపు</string>
+    <string name="button_prev">మునుపటి</string>
+    <string name="button_next">తరువాత</string>
+    <string name="button_signin">సైన్ ఇన్</string>
+
+    <!--Array-->
+
+    <string-array name="series_item_description">
+        <item>@string/info</item>
+        <item>@string/series_content</item>
+        <item>@string/reviews_tab</item>
+    </string-array>
+
+    <!--Menu-->
+
+    <string name="menu_home">హోమ్</string>
+    <string name="menu_about_ucc">యుసిసి గురించి</string>
+    <string name="menu_test_series">నా టెస్ట్ సిరీస్</string>
+    <string name="menu_contact_us">మమ్ములను కలవండి</string>
+    <string name="menu_logout">బయటకు వెళ్ళు</string>
+    <string name="menu_share">పంచు</string>
+    <string name="menu_rating"> ఈ ఆప్‍ విలువ </string>
+    <string name="menu_communicate">కమ్యూనికేట్</string>
+
+     <string name="user_forum_topic">மொத்த உள்நாட்டு உற்பத்தி தொடர்பாக அடிப்படை ஆண்டு என்ன .
+நாம் ஏன் அதை மாற்ற வேண்டிய அவசியம் மற்றும் ...</string>
+    <string name="descriptin">వివరణ</string>
+    <string name="how_it_works">అది ఎలా పని చేస్తుంది? </string>
+    <string name="forget_password">పాస్వర్డ్ మరిచిపోయారా ?</string>
+    <string name="new_in_ucc">యుసిసి లో న్యూ</string>
+    <string name="button_login">లాగిన్</string>
+    <string name="location">స్థానం</string>
+    <string name="news_text">భారతదేశం మనసులో దృఢమైన ముద్రవేయు - భారతదేశం ప్రాజెక్ట్ బాబు</string>
+    <string name="news_desc">ప్రభావితం రీసెర్చ్ </string>
+    <string name="free">ఉచిత</string>
+        <string name="no_release"> ఏ కొత్త విడుదల</string>
+
+    <!--Toast Message-->
+
+    <string name="toast_check_connection">దయచేసి మీ ఇంటర్నెట్ కనెక్షన్ను తనిఖీ</string>
+
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544 / 6300978111</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar"
+    android:layout_margin="10dp"
+    android:scrollbars="none"
+    android:layout_above="@+id/buttomLayout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemHeaderTitle"
+            android:textSize="@dimen/news_notifi_ques_desc_title"
+            android:textColor="@color/black"
+            android:text="  "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemHeaderDate"
+            android:textSize="@dimen/news_notifi_ques_desc_date"
+            android:layout_marginTop="5dp"
+            android:text=" "
+            android:enabled="false"
+            android:textColor="#BABCBE"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/itemHeaderDescription"
+            android:textSize="@dimen/news_notifi_ques_desc_text"
+            android:layout_marginTop="5dp"
+            android:text="  "
+            android:autoLink="all"
+            android:textColor="#808184"
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/buttomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            >
+
+
+
+            <TextView
+                android:id="@+id/previous_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/previous"
+                android:textSize="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="16dp"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:textSize="16dp"
+                android:id="@+id/next_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/next"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="15dp"
+                />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+    <!--  -->

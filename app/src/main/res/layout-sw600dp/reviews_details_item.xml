@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/round_image_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+
+        >
+
+      <!--  <com.example.indglobal.universalcoachingcenter.roundimageview.CircleImageView
+
+            android:id="@+id/image_cart_count"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="7dp"
+            android:src="@drawable/national" />
+
+-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image_cart_count"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/national"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="4dp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            >
+
+            <TextView
+                android:id="@+id/reviewed_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="#353535"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/image_cart_count"
+                android:layout_toEndOf="@+id/image_cart_count" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/reviews_rating_linear">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+
+                    <TextView
+                        android:id="@+id/rating_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4.0"
+                        android:textColor="@color/gray"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:gravity="start"
+                        android:textSize="20dp"
+                        android:paddingRight="20dp"/>
+
+                    <RatingBar
+                        android:id="@+id/vendor_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:numStars="5"
+                        android:stepSize="0.1"
+                        android:isIndicator="true"
+                        android:layout_gravity="center_vertical"
+                       />
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/reviews_details_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#353535"
+                    android:textSize="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

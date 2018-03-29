@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".Activity.StudentForum">
+    <item
+        android:id="@+id/one"
+
+        android:title="@string/report_abused" />
+
+    <item
+        android:id="@+id/two"
+        android:title="@string/follow_the_question"
+        />
+
+
+
+</menu>
